@@ -8,6 +8,23 @@ import 'package:base/viewmodels/placeViewModel.dart';
 import 'package:base/widgets/placelist.dart';
 import 'package:provider/provider.dart';
 
+class App extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'places',
+      home: MultiProvider(
+        providers: [
+          ChangeNotifierProvider<PlaceListViewModel>(
+            create: (_) => PlaceListViewModel(),
+          ),
+        ],
+        child: HomePage(),
+      ),
+    );
+  }
+}
+
 class HomePage extends StatefulWidget {
   @override
   _HomePageState createState() => _HomePageState();

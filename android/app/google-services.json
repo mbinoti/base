@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "352184238014",
+    "project_id": "base-28a0a",
+    "storage_bucket": "base-28a0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352184238014:android:1dc1dcdc3621606f4b43ef",
+        "android_client_info": {
+          "package_name": "br.com.mbi.base"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352184238014-1pjpv5ikrsrm44diact4391dfpqavknj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO5hX7rsDBH8T3W1gJsoRJAdshzqj9mL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352184238014-1pjpv5ikrsrm44diact4391dfpqavknj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "352184238014-14al315rt93t6jgaeohur16emqr5600o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.mbi.contatos"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
